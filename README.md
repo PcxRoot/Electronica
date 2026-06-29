@@ -12,6 +12,6 @@ El contenido de este repositorio está en constante evolución y sigue mi propia
 *   Automatización y el IoT con **ESP32** y otros microcontroladores.
 
 - ***[Repositorio de electrónica digital](./Electronica_Digital)***
-- 
+- ***[Repositorio de electrónica industrial](./electronica_Industrial)***
 
 El fin último de documentar todo este hardware no es solo aprender a construirlo, sino entender cómo funciona desde sus cimientos. Comprender los componentes, los voltajes y las comunicaciones físicas es el primer paso indispensable para poder auditar dispositivos, buscar vulnerabilidades y aplicar conceptos de seguridad desde la propia placa base hacia arriba.
