@@ -19,7 +19,7 @@ Este directorio está organizado para avanzar progresivamente desde las bases te
 
 | ***Titulo del proyecto*** | ***Repositorio*** |
 | :---: | :---: |
-| ***LCD ROM Dumper*** | |
+| ***LCD ROM Dumper*** | ***[Enlace](./LCD_ROM_Dumper)*** |
 
 ---
 > **Nota:** Este subrepositorio es la pieza central para entender cómo el software logra manipular el mundo físico. Todo código ejecutado en un procesador termina traduciéndose, inevitablemente, en operaciones matemáticas que ocurren dentro de estos circuitos digitales.
