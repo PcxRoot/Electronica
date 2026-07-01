@@ -51,7 +51,7 @@ En el controlador *HD44780*, la ***DDRAM*** es el ***área de almacenamiento de 
 - ***Relación visual:*** Aunque nuestra pantalla sea de *16x2* o *20x4*, el chip internamente tiene espacio para 80 caracteres (1 byte/caracter).
 - ***El "Scroll" físico:*** Si nuestra pantalla es de *16x2* (32 espacios visibles), los 48 bytes restantes siguen ahí, en la DDRAM, aunque no se vean. Son como **espacios de memroia ocultos** que podemos usar para desplazar texto (hacer scroll) sin tener que volver a enviar los datos desde el ***Arduino***.
 
->[!Example]
+>[!Note]
 >Imagina que usamos el comando `lcd.print("Estoy aprendiendo electronica")`, veremos que tiene 29 caracteres, por lo que, tendriamos que usar las dos líenas de una pantalla LCD 16x2 para poder mostrar todo el mensaje.
 >
 >Para hacre el efecto de *Scroll*, podemos hacer uso de `lcd.scrollDisplayLeft()` el cual es un método que nos permite cargar todos el mensaje anterior en la memoria DDRAM e ir "*scrolleando*" un caracter a la vez para mostrar todo el mensaje sin tener que mostrar una parte en la primera linea y el resto en la segunda.
