@@ -28,7 +28,7 @@ Este proyecto permite:
 
 ---
 
->"La seguridad empieza en el silicio. si puedes leer su memoria, puedes entender su lógica."
+>"La seguridad empieza en el silicio. Si puedes leer su memoria, puedes entender su lógica."
 
 ---
 
