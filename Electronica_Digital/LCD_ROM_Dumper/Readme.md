@@ -57,7 +57,7 @@ En el controlador *HD44780*, la ***DDRAM*** es el ***área de almacenamiento de 
 >Para hacer el efecto de *Scroll*, podemos hacer uso de `lcd.scrollDisplayLeft()` el cual es un método que nos permite cargar todo el mensaje anterior en la memoria DDRAM e ir "*scrolleando*" un caracter a la vez para mostrar todo el mensaje sin tener que mostrar una parte en la primera línea y el resto en la segunda.
 >
 >Ejemplo:
->```C++
+>```CPP
 >String mensaje = "Estoy aprendido electronica";
 >lcd.setCursor(0,0);
 >lcd.print(mensaje);
@@ -72,7 +72,7 @@ No obstante, esto puede llegar a dar problemas, ya que lo que hace el método `l
 
 Si queremos poder mostrar un mensaje de cualquier longitud (incluso mayor a 80) podemos usar un truco consistente en partir el mensaje en secciones de 16 caracteres e ir restando el primero y sumando uno nuevo cada iteración. De esta forma damos el efecto de *Scroll* aunque realmente no estamos moviendo la pantalla.
 
-```C++
+```CPP
 String mensaje = "Este es un mensaje que es tan largo que no deberia de caber "
 "en la memoria DDRAM del chip de la pantalla LCD";
 for ( int i = 0; i <= (mensaje.length() - 16); i++ ) {
