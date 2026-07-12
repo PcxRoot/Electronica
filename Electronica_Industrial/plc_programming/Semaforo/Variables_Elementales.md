@@ -22,5 +22,5 @@
 | Temp_Pea_Verde_Apagado | TON |
 | Temp_Pea_Verde_Encendido | TON |
 | Temp_Retardo_Anadido | TON |
-| Temp_Temp_Seguridad | TON |
+| Temp_Seguridad | TON |
 | Temp_Verde | TON |
