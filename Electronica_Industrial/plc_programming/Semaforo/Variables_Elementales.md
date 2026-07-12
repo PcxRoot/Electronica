@@ -22,4 +22,3 @@
 | Temp_Pea_Verde_Apagado | TON |
 | Temp_Pea_Verde_Encendido | TON |
 | Temp_Seguridad | TON |
-| Temp_Verde | TON |
