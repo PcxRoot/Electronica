@@ -13,8 +13,8 @@ El objetivo principal es recopilar código limpio, esquemáticos y documentació
 ## 🚀 Estructura del Repositorio
 El contenido está organizado de la siguiente manera:
 
-`/plc_programming`: Módulos, funciones (FC/FB) y scripts desarrollados en ST para plataformas como CODESYS, TIA Portal o TwinCAT.
+- [`plc_programming`](./plc_programming): Módulos, funciones (FC/FB) y scripts desarrollados en ST para plataformas como CODESYS, TIA Portal o TwinCAT.
 
-`/hardware_design`: Esquemas eléctricos, PCBs y simulaciones de etapas de potencia y aislamiento.
+- `/hardware_design`: Esquemas eléctricos, PCBs y simulaciones de etapas de potencia y aislamiento.
 
 >⚠️ Nota de Seguridad: Todos los desarrollos presentados aquí han sido diseñados siguiendo principios de seguridad funcional. Sin embargo, se recomienda realizar pruebas en entornos de simulación virtual antes de cargar cualquier código en maquinaria real.
