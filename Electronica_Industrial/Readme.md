@@ -4,11 +4,11 @@
 El objetivo principal es recopilar código limpio, esquemáticos y documentación técnica que sirva como base para la implementación de soluciones robustas en el sector industrial.
 
 ## 🛠️ Tecnologías y Lenguajes Clave
-Texto Estructurado (ST / IEC 61131-3): Programación avanzada de PLCs (Programmable Logic Controllers) enfocada en algoritmos complejos, control de lazos cerrados y gestión de datos sectoriales.
+***Texto Estructurado (ST / IEC 61131-3)***: Programación avanzada de PLCs (Programmable Logic Controllers) enfocada en algoritmos complejos, control de lazos cerrados y gestión de datos sectoriales.
 
-Sistemas Embebidos: Desarrollo de firmware de bajo nivel (C/C++) optimizado para microcontroladores industriales (como la familia STM32).
+***Sistemas Embebidos***: Desarrollo de firmware de bajo nivel (C/C++) optimizado para microcontroladores industriales (como la familia STM32).
 
-Protocolos de Comunicación: Implementación y pruebas de buses de campo industriales (Modbus RTU/TCP, CAN bus, Profinet).
+***Protocolos de Comunicación***: Implementación y pruebas de buses de campo industriales (Modbus RTU/TCP, CAN bus, Profinet).
 
 ## 🚀 Estructura del Repositorio
 El contenido está organizado de la siguiente manera:
