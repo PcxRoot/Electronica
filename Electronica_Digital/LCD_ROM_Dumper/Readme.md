@@ -41,7 +41,7 @@ Este proyecto permite:
 
 ### DDRAM (Display Data RAM)
 
-En el controlador *HD44780*, la ***DDRAM*** es el ***área de almacenamiento de lectura y escritura (volátil) que se encarga exclusivamente de guardar los códigos de los caracteres que se están mostrando en pantalla.
+En el controlador *HD44780*, la ***DDRAM*** es el ***área de almacenamiento de lectura y escritura (volátil)*** que se encarga exclusivamente de guardar los códigos de los caracteres que se están mostrando en pantalla.
 
 #### Análisis Técnico (Ingeniería Inversa)
 
